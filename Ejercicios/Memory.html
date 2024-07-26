@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory</title>
+</head>
+<body>
+
+  <style>
+    body{
+      background-color: rgb(19, 19, 19);
+      color: white;
+      position: relative;
+    }
+    #Juego{
+      width: 300px;
+      height: 300px;
+      background-color: rgb(111, 129, 104);
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .slot{
+      width: 85px;
+      height: 85px;
+      background-color: rgba(255, 255, 255, 0.694);
+      color: rgba(128, 128, 128, 0.512);
+      box-shadow: 1px 1px 10px 1px black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3em;
+      font-family: Arial;
+      font-weight: 900;
+      cursor: pointer;
+    }
+    #alerta{
+      width: 350px;height: 200px;
+      background-color: rgba(255, 255, 255, 0.119);
+      color: rgb(0, 0, 0);
+      font-size: 3em;
+      font-weight: 900;
+      font-family: Arial;
+      border-radius: 10px;
+
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      backdrop-filter: blur(5px);
+
+      display: none;
+      cursor: pointer;
+    }
+  </style>
+  
+  <div id="Juego">
+    <div class="slot"></div>
+    <div class="slot"></div>
+    <div class="slot"></div>
+    <div class="slot"></div>
+    <div class="slot"></div>
+    <div class="slot"></div>
+    <div class="slot"></div>
+    <div class="slot"></div>
+    <div class="slot"></div>
+  </div>
+
+  
+</body>
+</html>
