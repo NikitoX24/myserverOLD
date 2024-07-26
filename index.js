@@ -5,8 +5,8 @@ class Menu extends HTMLElement {
     <div id="navbar">
       <nav><ul>
         <li><a href="../index.html"> <img src="../logo.png" height="25px"> </a></li>
-        <li><a href="https://nikitox24.github.io/MyServer/"> <img src="/imgs/github-logo.png" alt="GitHub" height="25px"/> Index GitHub </a></li>
-        <li><a href="https://github.com/NikitoX24/Main"> <img src="/imgs/github-logo.png" alt="GitHub" height="25px"/> My GitHub </a></li>
+        <li><a href="https://nikitox24.github.io/"> Index GitHub </a></li>
+        <li><a href="https://github.com/NikitoX24"> My GitHub </a></li>
         <br />
       </ul></nav>
     </div>
