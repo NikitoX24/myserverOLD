@@ -1,4 +1,3 @@
-/* 
 class Menu extends HTMLElement {
   constructor() {
     super();
@@ -16,7 +15,6 @@ class Menu extends HTMLElement {
   }
 }
 customElements.define("menu-component", Menu); 
-*/
 
 // #region (Mostrar Seccion (hover) y h1 )
 let textoFix = document.querySelector("#textoFix");
